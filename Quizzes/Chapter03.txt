@@ -1,0 +1,103 @@
+{
+	When you run a NetBeans application, you can view information about the progress of the application in the ________________ window.
+	Output #
+}
+
+{
+	A/an ________________ is a special type of folder that’s used to store and organize the Java classes within an application or library.
+	Source Package Folder #
+}
+
+{
+	If you add a library to a project, the JRE will be able to find and run any of the classes within the ________________ file that was added to the project.
+	JAR #
+}
+
+{
+	In NetBeans, a folder that contains all the files that make up an application is called a/an ________________.
+	project #
+}
+
+{
+	In NetBeans, you can view the locations of the folders and files for a project in the ________________ window.
+	Files #
+}
+
+{
+	A compressed file that contains all of the files for a web application after it has been built is called a/an ________________.
+	WAR #
+}
+
+{
+	In a Java web application, ________________ files are used to store information about how the application is configured.
+	XML #
+}
+
+{
+	The ________________ window shows the servers and other runtime resources that are available to NetBeans.
+	services #
+}
+
+{
+	You can use NetBeans to add and edit these kind of files
+ 	HTML and JSP
+ 	XML
+ 	Java and servlet
+	all of the above #
+}
+
+{
+	In Netbeans, you can use the ________________ feature to help you enter code.
+ 	JAR
+ 	web archive
+ 	project
+	code completion #
+}
+
+{
+	In NetBeans, the ________________ window shows the actual folder structure that’s used for storing the files of an application. The ________________ window shows the logical structure of these folders and files.
+ 	Output, Projects
+	Files, Projects #
+	Projects, Files
+ 	none of the above
+}
+
+{
+	After you edit a web.xml file, you can check to see if it is still valid by checking it against its
+ 	Output window
+ 	Projects window
+	XML schema #
+ 	deployment descriptor
+}
+
+{
+	Typically, you map a servlet to a/an
+	URL pattern #
+ 	XML file
+ 	Java class
+ 	all of the above
+}
+
+{
+	The file that specifies how Netbeans builds and deploys the application when you run the application is called the ________________ script.
+ 	SQL
+ 	XML
+ 	project
+	build #
+}
+
+{
+	When you run a web application, NetBeans
+ 	automatically compiles all the files that need to be compiled
+ 	deploys the files for the project to the specified server
+ 	starts the default web browser
+	all of the above #
+}
+
+{
+	In NetBeans, a/an ________________ is a line of code that won’t compile.
+ 	method
+ 	servlet
+	error #
+ 	script
+}

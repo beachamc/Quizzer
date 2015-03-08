@@ -1,0 +1,155 @@
+{
+	The client typically uses a ________________ to interact with a web application over the Internet.
+	Web Browser #
+}
+
+{
+	A web application runs on the server computer under the control of ________________ software.
+	Web Server #
+}
+
+{
+	The protocol that’s used by web browsers and web servers to communicate is ________________.
+	HTTP #
+}
+
+{
+	________________ is the language that the web browser converts into the web pages of a web application.
+	HTML #
+}
+
+{
+	A web server replies to an HTTP request by sending a message known as a/an ________________ .
+	HTTP Response #
+}
+
+{
+	A ________________ web page is one that doesn’t change.
+	Static #
+}
+
+{
+	A web page that changes based on the parameters that are sent to the web application from another page is called a/an ________________ .
+	Dynamic web page #
+}
+
+{
+	To work with servlets and JSPs, the web server must contain the JDK, web server software, and a servlet/JSP ________________.
+	Engine #
+}
+
+{
+	A JavaServer Page typically contains the _________________ for the web page.
+	HTML #
+}
+
+{
+	A servlet/JSP application typically contains a presentation layer, a business rules layer, and a _________________.
+	Data Access Layer #
+}
+
+{
+	The top-level directory for a web application is know as its ________________  directory.
+	Root #
+}
+
+{
+	The context.xml file is always stored in the  _________________ directory of an application.
+	META-INF #
+}
+
+{
+	A web application is a type of:
+	client/server application #
+ 	database application
+ 	JSP application
+ 	Java application
+}
+
+{
+	A set of pages that are generated in response to user requests is called a/an:
+	servlet
+ 	JSP
+ 	domain name
+	web application #
+}
+
+{
+	A servlet:
+	runs in a JSP
+	runs on a server #
+ 	runs on the client
+ 	runs within HTML code
+}
+
+{
+	An HTTP request:
+	is sent from the web browser to a web server #
+ 	is sent from the web browser to the client
+ 	is sent from the servlet engine to the client
+ 	is sent from the client to the servlet engine
+}
+
+{
+	To transfer your web application files to a web server, you can use a/an ___________ client such as FileZilla.
+	HTTP (Hypertext Transfer Protocol)
+ 	JDK (Java Development Kit)
+ 	HTML (Hypertext Markup Language)
+	FTP (File Transfer Protocol) #
+}
+
+{
+	The specification that describes how web servers can interact with all Java web technolgies is know as:
+	The  Java Development Kit (JDK)
+	The Java Enterprise Edition (Java EE) #
+ 	The Application Server
+ 	The HyperText Transfer Protocal
+}
+
+{
+	To develop Java web applications, you can use an Integrated Development Environment (IDE) such as:
+	NetBeans or Eclipse #
+ 	Foxfire or Netscape
+ 	FileZilla or CuteFTP
+ 	Tomcat or Apache
+}
+
+{
+	The presentation layer for a typical servlet/JSP web application consists of:
+	Java classes
+ 	servlets
+	HTML pages and JSPs #
+ 	data access classes
+}
+
+{
+	For web applications, data can be stored in:
+	text files
+ 	databases
+ 	XML files
+	all of the above #
+}
+
+{
+	Which directory stores the Java classes of a servlet/JSP application?
+ 	WEB-INF
+	WEB-INF\classes #
+ 	META-INF
+ 	META-INF\classes
+}
+
+{
+	There are many approaches to developing web applications with Java besides using servlets and JavaServer Pages. Name two other approaches.
+ 	HTML and CSS
+	JSF and Spring #
+ 	Glassfish and Tomcat
+ 	JavaScript and jQuery
+}
+
+{
+	Which of the following is an API for working with databases?
+	JPA #
+ 	JSF
+	EJB
+ 	Spring
+}

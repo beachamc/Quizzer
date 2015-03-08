@@ -1,0 +1,110 @@
+{
+	One of the disadvantages of using EL is that it doesn’t provide a way to _______________ properties.
+	set #
+}
+
+{
+	When you use EL to access an attribute, EL automatically searches through all four _______________________ as it looks for the attribute.
+	scopes #
+}
+
+{
+	Write the EL code for accessing the time property in an attribute named clock.
+	${clock.time} #
+}
+
+{
+	Write the EL code for accessing the time property in an attribute name clock of the request object. (Explicitly specify the scope.)
+	${request.clock.time} #
+}
+
+{
+	Write the EL code for accessing the first value in an array attribute named times.
+	${times[0]} #
+}
+
+{
+	One of the benefits of EL is that it lets you access ________________ properties.
+	nested #
+}
+
+{
+	A/an ________________ is a type of collection that’s used to store key/value pairs.
+	map #
+}
+
+{
+	If you have a naming conflict, you can use the __________________ to specify scope.
+	implicit EL objects #
+}
+
+{
+	The pageContext object used by EL is a JavaBean, but the other implicit objects are ________________.
+	maps #
+}
+
+{
+	In arithmetic expressions, EL treats a null value as ________________.
+	0 #
+}
+
+{
+	In logical expressions, EL treats a null value as a/an ________________ value.
+	false #
+}
+
+{
+	If you use the MVC pattern with EL,
+	the servlets create the JavaBeans and set the bean properties #
+ 	the servlets create the JavaBeans and the JSPs set the bean properties
+ 	the JSPs create the JavaBeans and set the bean properties
+ 	the JSPs create the JavaBeans and the servlets set the bean properties
+}
+
+{
+	The types of scope that can be used with EL are
+ 	request, response, session, and application
+	page, request, session, and application #
+ 	page, response, session, and application
+ 	request, response, and session
+}
+
+{
+	The paramValues implicit object lets you use EL
+	to get the values of request parameters #
+ 	to get the values of response parameters
+ 	to set the values of request parameters
+ 	to set the values of response parameters
+}
+
+{
+	The initParam implicit object lets you use EL
+	to get the value of a context initialization parameter #
+ 	to get the value of a servlet initialization parameter
+ 	to set the starting value of a context initialization parameter
+ 	to set the starting value of a servlet initialization parameter
+}
+
+{
+	Which of the following is the correct EL code for getting the value of a cookie named userPreference?
+ 	${cookie.userPreference}
+	${cookie.userPreference.value} #
+ 	${cookie.value.userPreference}
+ 	${cookie.userPreference[value]}
+}
+
+{
+	The JSP Expression Language (EL) provides a compact syntax that lets you get data from
+ 	JavaBeans
+ 	maps and arrays
+ 	lists that have been stored as attributes of a web application
+	all of the above #
+}
+
+{
+	You can use the implicit EL objects to work with
+ 	request parameters and HTTP headers
+ 	cookies and context initialization parameters
+ 	the implicit pageContext object that’s available to all JSPs
+	all of the above #
+}

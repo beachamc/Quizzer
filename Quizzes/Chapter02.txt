@@ -1,0 +1,101 @@
+{
+	When you use the Model 1 pattern, ________________ handle all of the processing and presentation for the application.
+	JSPs #
+}
+
+{
+	In the Model 2 pattern, ________________ objects define the model.
+	Java #
+}
+
+{
+	In the MVC pattern, the view consists of HTML pages and ________________.
+	JSPs #
+}
+
+{
+	In the MVC pattern, the controller is a ________________.
+	Servlet #
+}
+
+{
+	A/an ________________ is a type of Java class that runs on a server and does the processing for the dynamic web pages of a web application.
+	JSP #
+}
+
+{
+	A/an ________________ file contains the tags that define the content of a web page.
+	HTML #
+}
+
+{
+	Using a/an external ________________ file provides a way to separate the formatting of HTML pages from the content of the pages.
+	Stylesheet/CSS #
+}
+
+{
+	A/an  ________________ consists of special Java tags such as Expression Language (EL) tags that are embedded within HTML.
+	JSP	#
+}
+
+{
+	A web.xml file is always stored in the  _________________ directory of an application.
+	WEB-INF #
+}
+
+{
+	When you use the MVC pattern, the controller directs the flow of control to the browser and the model
+	the view and the model #
+	the browser and the model
+	the view and the model #
+	the view, model, and data store
+ 	the model and data store
+}
+
+{
+	When you use the MVC pattern, you
+	make each layer as independent as possible #
+ 	perform all data validation on the client
+ 	use the pattern for every page in the application
+ 	all of the above
+}
+
+{
+	Since the web.xml file describes how the web application should be configured when it is deployed on a server, the file is known as the
+ 	the request object
+ 	style sheet (SS)
+ 	app config file (ACD)
+	deployment descriptor (DD) #
+}
+
+{
+	The controller manages the flow of the application, and this work is done by one or more
+ 	request objects
+	servlets #
+ 	JSPs
+ 	data access classes
+}
+
+{
+	Which of the following is not a benefit of using the MVC pattern for an application?
+ 	it’s easier to test and debug the application
+ 	JSPs are used for what they do best
+ 	servlets are used for what they do best
+	it requires less code #
+}
+
+{
+	A JavaBean, or bean, is a Java class that
+ 	declares public instance variables
+ 	doesn’t provide a zero-argument constructor
+ 	doesn’t provide get and set methods for all of it’s private instance variables that follow standard Java naming conventions
+	none of the above #
+}
+
+{
+	To minimize the amount of Java code in your JSPs, you
+ 	use JSPs to perform the business logic
+ 	use JSPs to define the user interface
+	use servlets to handle the processing requirements #
+ 	use servlets to return HTML to the browser
+}

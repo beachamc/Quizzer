@@ -1,0 +1,83 @@
+{
+	Before you can use JSTL in your JSPs, you have to make the ___________ files for the JSTL library available to your application.
+	jstl-impl.jar and jstl-api.jar #
+}
+
+{
+	Before you can use JSTL in a JSP, you need to code a _______________ directive.
+	taglib #
+}
+
+{
+	To help prevent your code from breaking if the application context changes, you can use the JSTL  _______________________ tag to encode URLs within your web application so they are relative to the application’s root directory.
+	URL #
+}
+
+{
+	The ________________ provides tags for common JSP tasks.
+	JSP Standard Tag Library #
+}
+
+{
+	Cross-site scripting (XSS) attacks occur when an attacker attempts to insert malicious ________________ into your HTML pages.
+	Javascript #
+}
+
+{
+	To add a parameter to a parent tag, you can use the JSTL ________________ tag.
+	param #
+}
+
+{
+	By default, the url tag automatically rewrites the URL to include the ________________ whenever necessary. This isn’t secure as it can lead to session hijacking.
+	session ID #
+}
+
+{
+	If this code is used for the href attribute of a link, <c:url value='/cart' ><c:param name='productCode' value='8601' /></c:url> what URL is used for the link?
+ 	/cart
+ 	/cart/productCode=8601
+	/cart?productCode=8601 #
+ 	/cart?8601
+}
+
+{
+	If this code is used to parse an attribute named emailAddress that contains a value of jjones@net@asset.com<c:forTokens var="part" items="${emailAddress}" delims="@">${part}<br></c:forTokens> what is displayed in the browser?
+ 	jjones \n net \n asset \n com
+	jjones \n net \n asset.com #
+ 	jjones \n net@asset \n com
+ 	jjones \n net@asset.com  
+}
+
+{
+	To loop through most types of collections, including regular arrays, you would use the ________________ tag.
+ 	param
+	forEach #
+ 	forTokens
+ 	none of the above
+}
+
+{
+To loop through items in a delimited string, you would use the ________________ tag.
+ 	param
+ 	forEach
+	forTokens #
+ 	none of the above
+}
+
+{
+	To code the equivalent of a Java if/else statement, you would use the ________________ tag.
+ 	if
+	choose #
+ 	param
+ 	url
+}
+
+{
+	To code the equivalent of a Java if statement, you would use the ________________ tag.
+ 	choose
+ 	forEach
+ 	url
+	none of the above #
+}
+

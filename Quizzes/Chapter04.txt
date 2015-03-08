@@ -1,0 +1,134 @@
+{
+	It’s a best practice to use HTML for the content and structure of a web page, and ________________ for formatting the page.
+	CSS #
+}
+
+{
+	It’s a best practice to use ________________ style sheets to provide the CSS for your pages.
+	External #
+}
+
+{
+	To attach an external style sheet to a web page, you code a link element in the head section of the ________________ that points to the location of the style sheet.
+	HTML #
+}
+
+{
+	By default, ________________ in HTML are displayed on their own lines in browsers.
+	Block Elements #
+}
+
+{
+	Using the HTML5 semantic elements makes it easier to apply CSS and also improves ________________ in some search engines.
+	SEO #
+}
+
+{
+	To assure ________________ compatibility, you need to test your web applications in all of the browsers that are likely to access your application.
+	Cross Browser #
+}
+
+{
+	An HTML form typically contains a/an ________________ button that calls a servlet when the user clicks it.
+	Submit #
+}
+
+{	
+	An HTML document contains HTML ________________ that specify the content and structure of a web page.
+	Tags #
+}
+
+{
+	In HTML, these do not display on their own lines in browsers.
+ 	block elements
+	inline elements #
+ 	both a and b
+ 	none of the above
+}
+
+{
+	The HTML5 semantic elements include the
+ 	header and section elements
+ 	nav elements
+ 	aside and footer elements
+	all of the above #
+}
+
+{
+	A/An ________________ element should only be used when there isn’t an appropriate HTML5 semantic element for the purpose.
+ 	nav
+	div #
+ 	aside
+ 	footer
+}
+
+{
+	To allow the user to navigate from one URL to another, you can code ________________ within HTML.
+ 	block elements
+ 	servlets
+	links #
+ 	none of the above
+}
+
+{
+	An HTML page can include images in _________________ format.
+ 	GIF
+ 	PNG
+ 	JPEG
+	all of the above #
+}
+
+{
+	You can use tables to organize data in
+	rows and columns #
+ 	drawers
+ 	inline and block elements
+ 	none of the above
+}
+
+{	
+	The ________________ within tables can store links, images, and controls.
+ 	styles
+ 	columns
+ 	rows
+	cells #
+}
+
+{
+	The basic CSS selectors are
+ 	type (or element) selectors
+ 	class selectors
+ 	id selectors
+	all of the above #
+}
+
+{
+	Which statement is true for the order in which styles override other styles when you use CSS?
+	more specific styles override less specific styles #
+ 	less specific styles override more specific styles
+ 	the first style that’s applied overrides following styles
+}
+
+{
+	Which of the following statments is true?
+	A CSS rule set consists of one or more rules #
+ 	A CSS rule set consists of one, and only one, rule
+ 	A CSS rule set can only have one selector
+ 	none of the above
+}
+
+{
+	To make sure the HTML5 semantic elements work in older browsers, you need to
+ 	provide a CSS rule set that sets the semantic elments to block elements.
+ 	add a JavaSript shiv to your HTML document.
+	both a and b #
+ 	none of the above
+}
+
+{
+	An HTML form contains one or more controls like
+ 	text boxes and check boxes
+ 	radio buttons
+ 	combo boxes and list boxes
+	all of the above #
+}

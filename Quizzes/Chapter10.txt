@@ -1,0 +1,124 @@
+{
+	The Java class that carries out the actions of a custom tag is called the ________________ class.
+	tag #
+}
+
+{
+	Within a tag element, you must use the ________________ element to specify the name of the custom tag.
+	name #
+}
+
+{
+	When you use a custom tag in a JSP, you start by coding the _______________________ that’s specified in the taglib directive.
+	Tag Library Descriptor #
+}
+
+{
+	When you add a tag that has a body to the TLD, you must specify a value of ________________for the bodycontent element.
+	JSP #
+}
+
+{
+	The ________________ is an XML document that describes a tag library that contains custom tags that can be used in an application.
+	Tag Library Descriptor #
+}
+
+{
+	The file for a TLD is saved in the ________________ directory or one of its subdirectories.
+	WEB-INF	#
+}	
+
+{
+	Within a tag element, you must use the ________________ element to specify the tag class for the tag.
+	tag class #
+}
+
+{
+	Before JSP 2.0, it was common to create a/an ________________ class to define scripting variables for a tag class.
+	tag handler #
+}
+
+{
+	To pass data to the tag class, you can store that data as a/an ________________  attribute.
+	session #
+}
+
+{
+	Before you can use a custom tag, you must code a taglib directive in the JSP. Within this directive, the URI attribute must specify
+ 	the location of the tag handler class
+ 	the scripting variables of the tag
+ 	the name of the tag
+	the location of the TLD file #
+}
+
+{
+	To display the body of the tag in the JSP,
+	the tag class should return the EVAL_BODY_INCLUDE constant #
+ 	the tag class should return the EVAL_BODY_BUFFERED constant
+ 	the tag class should return the SKIP_BODY constant
+ 	none of the above
+}
+
+{
+	To be able to access the body of a tag, the tag handler class needs to
+	extend the TagSupport class
+	extend the BodyTagSupport class #
+ 	implement the TagSupport interface
+ 	implement the BodyTagSupport interface
+}
+
+{
+	The number of TLDs an application can have is
+ 	1
+ 	5
+ 	300
+	unlimited #
+}
+
+{
+	A tag that has a body must have
+ 	an opening tag
+ 	a body
+ 	a closing tag
+	all of the above #
+}
+
+{
+	For the data type of a scripting variable, you can specify a
+ 	String object
+ 	any primitive data type
+ 	any wrapper class for a primitive type
+	all of the above #
+}
+
+{
+	For each scripting variable, you create a VariableInfo object that provides this data:
+ 	the name and data type of the variable
+ 	a true/false value that tells whether the variable needs to be declared
+ 	the scope of the variable
+	all of the above #
+}
+
+{
+	If a tag doesn’t have a body, the doStartTag method should return the
+ 	EVAL_BODY_INCLUDE field
+ 	EVAL_PAGE field
+	SKIP_BODY field #
+ 	SKIP_PAGE field
+}
+
+{
+	To code a tag handler that uses attributes, you must
+ 	declare a private instance variable for each attribute
+ 	define a set method for each attribute with the standard naming conventions
+	both a and b #
+ 	none of the above
+}
+
+{
+	You can use custom tags
+ 	with a body, and without a body
+ 	with attributes, and with a repeating body
+	both a and b #
+ 	none of the above
+}
