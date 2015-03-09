@@ -97,8 +97,7 @@
 }
 
 {
-	The cookie named mediaCookie in the following statement can be accessed by
-	mediaCookie.setPath("/");
+	The cookie named mediaCookie in the following statement can be accessed by mediaCookie.setPath("/");
 	only the current directory
 	the entire web application #
 	the entire web server
