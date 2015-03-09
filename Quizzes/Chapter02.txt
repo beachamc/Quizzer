@@ -44,7 +44,7 @@
 }
 
 {
-	When you use the MVC pattern, the controller directs the flow of control
+	When you use the MVC pattern, the controller directs the flow of control to
 	the browser and the model
 	the view and the model #
 	the view, model, and data store
