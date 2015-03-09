@@ -56,55 +56,55 @@
 {
 	If you use the MVC pattern with EL,
 	the servlets create the JavaBeans and set the bean properties #
- 	the servlets create the JavaBeans and the JSPs set the bean properties
- 	the JSPs create the JavaBeans and set the bean properties
- 	the JSPs create the JavaBeans and the servlets set the bean properties
+	the servlets create the JavaBeans and the JSPs set the bean properties
+	the JSPs create the JavaBeans and set the bean properties
+	the JSPs create the JavaBeans and the servlets set the bean properties
 }
 
 {
 	The types of scope that can be used with EL are
- 	request, response, session, and application
+	request, response, session, and application
 	page, request, session, and application #
- 	page, response, session, and application
- 	request, response, and session
+	page, response, session, and application
+	request, response, and session
 }
 
 {
 	The paramValues implicit object lets you use EL
 	to get the values of request parameters #
- 	to get the values of response parameters
- 	to set the values of request parameters
- 	to set the values of response parameters
+	to get the values of response parameters
+	to set the values of request parameters
+	to set the values of response parameters
 }
 
 {
 	The initParam implicit object lets you use EL
 	to get the value of a context initialization parameter #
- 	to get the value of a servlet initialization parameter
- 	to set the starting value of a context initialization parameter
- 	to set the starting value of a servlet initialization parameter
+	to get the value of a servlet initialization parameter
+	to set the starting value of a context initialization parameter
+	to set the starting value of a servlet initialization parameter
 }
 
 {
 	Which of the following is the correct EL code for getting the value of a cookie named userPreference?
- 	${cookie.userPreference}
+	${cookie.userPreference}
 	${cookie.userPreference.value} #
- 	${cookie.value.userPreference}
- 	${cookie.userPreference[value]}
+	${cookie.value.userPreference}
+	${cookie.userPreference[value]}
 }
 
 {
 	The JSP Expression Language (EL) provides a compact syntax that lets you get data from
- 	JavaBeans
- 	maps and arrays
- 	lists that have been stored as attributes of a web application
+	JavaBeans
+	maps and arrays
+	lists that have been stored as attributes of a web application
 	all of the above #
 }
 
 {
 	You can use the implicit EL objects to work with
- 	request parameters and HTTP headers
- 	cookies and context initialization parameters
- 	the implicit pageContext object that’s available to all JSPs
+	request parameters and HTTP headers
+	cookies and context initialization parameters
+	the implicit pageContext object that’s available to all JSPs
 	all of the above #
 }

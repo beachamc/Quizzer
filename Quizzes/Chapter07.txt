@@ -51,129 +51,129 @@
 
 {
 	A session object is created
- 	every time a browser makes a request for a web page
- 	every time a browser requests a servlet
- 	every time a browser requests a jsp
+	every time a browser makes a request for a web page
+	every time a browser requests a servlet
+	every time a browser requests a jsp
 	the first time a browser makes a request to a site #
 }
 
 {
 	A servlet can retrieve the current session object by using the getSession method of the
- 	HttpSession class
- 	response object
+	HttpSession class
+	response object
 	the request object #
- 	the ServletContext object
+	the ServletContext object
 }
 
 {
 	The current session object is available
- 	only to JSPs
- 	only to servlets
+	only to JSPs
+	only to servlets
 	to both servlets and JSPs #
 }
 
 {
 	Which of the following statements causes an error?
 	String name = session.getAttribute("name"); #
- 	Book book = (Book) session.getAttribute("book");
- 	session.setAttribute("name", "Ted Andrews");
- 	session.removeAttribute("name");
+	Book book = (Book) session.getAttribute("book");
+	session.setAttribute("name", "Ted Andrews");
+	session.removeAttribute("name");
 }
 
 {
 	Cookies are stored
- 	in a database
- 	on the web server that sent the cookie
- 	on the web server that created the cookie
+	in a database
+	on the web server that sent the cookie
+	on the web server that created the cookie
 	on the client #
 }
 
 {
 	Persistent cookies
- 	are removed after the session ends
+	are removed after the session ends
 	exist after the session ends #
- 	can’t be deleted
- 	are often called hidden fields
+	can’t be deleted
+	are often called hidden fields
 }
 
 {
 	The cookie named mediaCookie in the following statement can be accessed by
 	mediaCookie.setPath("/");
- 	only the current directory
+	only the current directory
 	the entire web application #
- 	the entire web server
- 	anyone
+	the entire web server
+	anyone
 }
 
 {
 	The following link demonstrates how to use <a href="schedule?user_id=${user.id}" >View your schedule</a>
 	URL rewriting #
- 	URL encoding
- 	hidden fields
- 	cookies
+	URL encoding
+	hidden fields
+	cookies
 }
 
 {
 	The advantages of using hidden fields over URL rewriting to pass parameters from a browser to the server are
- 	a hidden field can contain spaces and other special characters that are difficult to work with when using URL rewriting
- 	the user can see the parameters by using the browser to look at the page’s source code
- 	no limit to the number of characters that can be stored in a hidden field
- 	both a and b
+	a hidden field can contain spaces and other special characters that are difficult to work with when using URL rewriting
+	the user can see the parameters by using the browser to look at the page’s source code
+	no limit to the number of characters that can be stored in a hidden field
+	both a and b
 	both a and c #
 }
 
 {
 	To delete a persistent cookie, set the age of a cookie to
- 	-1
- 	1
+	-1
+	1
 	0 #
- 	none of the above
+	none of the above
 }
 
 {
 	When you set an attribute in the request object, the attributes are ________________.
- 	available until the user closes the browser
+	available until the user closes the browser
 	removed when the request has been completed #
- 	available until the session times out
- 	none of the above
+	available until the session times out
+	none of the above
 }
 
 {
 	When you set an attribute in the session object, the attributes are
- 	available until the user closes the browser
- 	available until the session times out
- 	available until you use the removeAttribute method to remove an attribute from the session object
+	available until the user closes the browser
+	available until the session times out
+	available until you use the removeAttribute method to remove an attribute from the session object
 	all of the above #
 }
 
 {
 	Which statement is true?
 	HTTP doesn’t maintain state #
- 	HTTP maintains state
- 	FTP doesn’t maintain state
- 	all of the above
+	HTTP maintains state
+	FTP doesn’t maintain state
+	all of the above
 }
 
 {
 	A session ends when
- 	when a specified amount of time elapses without another request
- 	when the user exits the browser
+	when a specified amount of time elapses without another request
+	when the user exits the browser
 	both a and b #
- 	none of the above
+	none of the above
 }
 
 {
 	Typical uses for cookies are
- 	to allow users to skip login and registration forms
- 	to customize pages that display info like weather reports, sports scores, etc.
- 	to focus advertising like banner ads that target the user’s interests
+	to allow users to skip login and registration forms
+	to customize pages that display info like weather reports, sports scores, etc.
+	to focus advertising like banner ads that target the user’s interests
 	all of the above #
 }
 
 {
 	To create a persistent cookie, set the cookie’s maximum age to
- 	0
- 	-1
+	0
+	-1
 	a positive number #
- 	none of the above
+	none of the above
 }
