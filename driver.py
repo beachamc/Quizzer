@@ -3,6 +3,7 @@ from random import shuffle
 import getch
 import os
 from subprocess import call
+import platform
 
 
 def main():
@@ -13,13 +14,13 @@ def main():
 	if (learningMode.lower() == 'y'):
 		learningMode = True
 	for i in range(len(selections)):
-		questions += read('Quizzes/' + selections[i])
+		questions += read(os.path.join('Quizzes', selections[i]))
 	if(len(questions) > 0):
 		print(str(len(questions)) + " questions.")
 		shuffle(questions)
 		correct = 0
 		total = 0
-		call(["clear"])
+		osClear()
 		scoreboard(correct, total, questions)
 		print("")
 		while(len(questions) > 0):
@@ -33,13 +34,13 @@ def main():
 				while(len(question.getAnswers()) <= ord(char)-97):
 					char = getch.getch()
 				if(question.getAnswers()[ord(char)-97].lower() == question.getCorrect().lower()):
-					call(["clear"])
+					osClear()
 					correct += 1
 					scoreboard(correct, total, questions)
 					print("Correct" + "\n")
 					print("")
 				else:
-					call(["clear"])
+					osClear()
 					if(learningMode == True):
 						questions.append(question)
 						shuffle(questions)
@@ -50,13 +51,13 @@ def main():
 			else:
 				answer = raw_input()
 				if(question.getCorrect().lower() == answer.lower()):
-					call(["clear"])
+					osClear()
 					correct += 1
 					scoreboard(correct, total, questions)
 					print("Correct \n")
 					print("")
 				else:
-					call(["clear"])
+					osClear()
 					if(learningMode == True):
 						questions.append(question)
 						shuffle(questions)
@@ -69,6 +70,13 @@ def main():
 		print ("Score: " + str(score * 100)) + "%"
 	else:
 		print("No Quizzes Found")
+
+
+def osClear():
+	if(platform.system() == 'Windows'):
+		call(["cls"])
+	else:
+		call(["clear"])
 
 def selectQuizzes():
 	quizzes = []
