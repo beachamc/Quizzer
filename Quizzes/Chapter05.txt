@@ -1,5 +1,5 @@
 {
-	When an HTML page requests a servlet with the HTTP POST method, the _______________________ method of the servlet class is called.
+	When an HTML page requests a servlet with the HTTP POST method, the ______________________ method of the servlet class is called.
 	doPost # 
 }
 
