@@ -40,64 +40,64 @@
 
 {
 	You can use NetBeans to add and edit these kind of files
- 	HTML and JSP
- 	XML
- 	Java and servlet
+	HTML and JSP
+	XML
+	Java and servlet
 	all of the above #
 }
 
 {
 	In Netbeans, you can use the ________________ feature to help you enter code.
- 	JAR
- 	web archive
- 	project
+	JAR
+	web archive
+	project
 	code completion #
 }
 
 {
 	In NetBeans, the ________________ window shows the actual folder structure that’s used for storing the files of an application. The ________________ window shows the logical structure of these folders and files.
- 	Output, Projects
+	Output, Projects
 	Files, Projects #
 	Projects, Files
- 	none of the above
+	none of the above
 }
 
 {
 	After you edit a web.xml file, you can check to see if it is still valid by checking it against its
- 	Output window
- 	Projects window
+	Output window
+	Projects window
 	XML schema #
- 	deployment descriptor
+	deployment descriptor
 }
 
 {
 	Typically, you map a servlet to a/an
 	URL pattern #
- 	XML file
- 	Java class
- 	all of the above
+	XML file
+	Java class
+	all of the above
 }
 
 {
 	The file that specifies how Netbeans builds and deploys the application when you run the application is called the ________________ script.
- 	SQL
- 	XML
- 	project
+	SQL
+	XML
+	project
 	build #
 }
 
 {
 	When you run a web application, NetBeans
- 	automatically compiles all the files that need to be compiled
- 	deploys the files for the project to the specified server
- 	starts the default web browser
+	automatically compiles all the files that need to be compiled
+	deploys the files for the project to the specified server
+	starts the default web browser
 	all of the above #
 }
 
 {
 	In NetBeans, a/an ________________ is a line of code that won’t compile.
- 	method
- 	servlet
+	method
+	servlet
 	error #
- 	script
+	script
 }
