@@ -35,7 +35,7 @@
 
 {
 	A/an  ________________ consists of special Java tags such as Expression Language (EL) tags that are embedded within HTML.
-	JSP	#
+	JSP #
 }
 
 {
