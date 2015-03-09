@@ -50,7 +50,7 @@
 
 {
 	The root element for the web.xml file is the ________________ element.
-	web-app	#
+	web-app #
 }
 
 {
