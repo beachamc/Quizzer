@@ -75,97 +75,97 @@
 
 {
 	A servlet is a Java class that extends the
- 	Servlet class
- 	HttpGenericServlet class
+	Servlet class
+	HttpGenericServlet class
 	HttpServlet class #
- 	HttpServletRequest class
+	HttpServletRequest class
 }
 
 {
 	When the doGet method of a servlet is called, it receives
- 	the request and ServletContext objects
+	the request and ServletContext objects
 	the request and response objects #
- 	the request, response, and ServletException objects
- 	the request, ServletContext, and ServletException objects
+	the request, response, and ServletException objects
+	the request, ServletContext, and ServletException objects
 }
 
 {
 	In the code that follows, DiagnoseTrouble <servlet-mapping><servlet-name>DiagnoseTrouble</servlet-name><url-pattern>/diagnostics/diagnoseTrouble</url-pattern></servlet-mapping>
- 	is the name of the servlet class
+	is the name of the servlet class
 	is the internal name for the servlet class that’s used in the deployment descriptor #
- 	is the name that’s used to request the servlet
+	is the name that’s used to request the servlet
 }
 
 {
 	In the code that follows, the servlet is mapped to <servlet-mapping><servlet-name>DiagnoseTrouble</servlet-name><url-pattern>/diagnostics/diagnoseTrouble</url-pattern></servlet-mapping>
 	the /diagnostics/diagnoseTrouble URL of the document root directory #
- 	the /diagnostics/diagnoseTrouble URL of the current directory
- 	any URL in the /diagnostics/diagnoseTrouble directory of the document root directory
- 	any URL in the /diagnostics/diagnoseTrouble directory of the current directory
+	the /diagnostics/diagnoseTrouble URL of the current directory
+	any URL in the /diagnostics/diagnoseTrouble directory of the document root directory
+	any URL in the /diagnostics/diagnoseTrouble directory of the current directory
 }
 
 {
 	The init method of a servlet class is called
 	the first time a servlet is requested but before the service method #
- 	each time the servlet is requested but before the service method
- 	the first time a servlet is requested but after the service method
- 	each time the servlet is requested but after the service method
+	each time the servlet is requested but before the service method
+	the first time a servlet is requested but after the service method
+	each time the servlet is requested but after the service method
 }
 
 {
 	The following code from a servlet class System.out.println("Check with system administrator");
 	prints text to the standard output stream #
- 	prints text to an HTML page
- 	prints text to a JSP page
- 	prints text to a servlet
+	prints text to an HTML page
+	prints text to a JSP page
+	prints text to a servlet
 }
 
 {
 	You can use ________________ to perform data validation on the server.
- 	jQuery
+	jQuery
 	a servlet #
- 	JavaScript
- 	HTML5
+	JavaScript
+	HTML5
 }
 
 {
 	You can use ________________, or ________________ to perform data validation on the client.
- 	jQuery, a servlet
- 	JavaScript, a servlet
+	jQuery, a servlet
+	JavaScript, a servlet
 	JavaScript, jQuery #
- 	a servlet, HTML5
+	a servlet, HTML5
 }
 
 {
 	To define a/an ________________ initialization parameter that’s available to all servlets in the web application, you code a/an ________________ element.
- 	context, init-param
- 	servlet, init-param
- 	servlet, context-param
+	context, init-param
+	servlet, init-param
+	servlet, context-param
 	context, context-param #
 }
 
 {
 	To define a/an ________________ initialization parameter that’s available to a specific servlet, you can code a/an ________________ element within a servlet element.
- 	context, init-param
+	context, init-param
 	servlet, init-param #
- 	servlet, context-param
- 	context, context-param
+	servlet, context-param
+	context, context-param
 }
 
 {
 	Which of the following statements gets the value of the parameter named occupation?
- 	String occupation = response.getParameter("occupation");
+	String occupation = response.getParameter("occupation");
 	String occupation = request.getParameter("occupation") #
- 	String occupation = response.getValue("occupation");
- 	String occupation = request.getValue("occupation")
- 	None of the above
+	String occupation = response.getValue("occupation");
+	String occupation = request.getValue("occupation")
+	None of the above
 }
 
 {
 	The following code String[] mailTypes = request.getParameterValues("mail");
- 	returns the name of all request parameters from the mail.jsp page
- 	returns the first value of the mail parameter or null if none exist
+	returns the name of all request parameters from the mail.jsp page
+	returns the first value of the mail parameter or null if none exist
 	returns all values of the mail parameter or null if none exist #
- 	returns the values of all request parameters from the mail.jsp page
- 	is invalid
+	returns the values of all request parameters from the mail.jsp page
+	is invalid
 }

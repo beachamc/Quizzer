@@ -61,16 +61,16 @@
 {
 	A web application is a type of:
 	client/server application #
- 	database application
- 	JSP application
- 	Java application
+	database application
+	JSP application
+	Java application
 }
 
 {
 	A set of pages that are generated in response to user requests is called a/an:
 	servlet
- 	JSP
- 	domain name
+	JSP
+	domain name
 	web application #
 }
 
@@ -78,23 +78,23 @@
 	A servlet:
 	runs in a JSP
 	runs on a server #
- 	runs on the client
- 	runs within HTML code
+	runs on the client
+	runs within HTML code
 }
 
 {
 	An HTTP request:
 	is sent from the web browser to a web server #
- 	is sent from the web browser to the client
- 	is sent from the servlet engine to the client
- 	is sent from the client to the servlet engine
+	is sent from the web browser to the client
+	is sent from the servlet engine to the client
+	is sent from the client to the servlet engine
 }
 
 {
 	To transfer your web application files to a web server, you can use a/an ___________ client such as FileZilla.
 	HTTP (Hypertext Transfer Protocol)
- 	JDK (Java Development Kit)
- 	HTML (Hypertext Markup Language)
+	JDK (Java Development Kit)
+	HTML (Hypertext Markup Language)
 	FTP (File Transfer Protocol) #
 }
 
@@ -102,54 +102,54 @@
 	The specification that describes how web servers can interact with all Java web technolgies is know as:
 	The  Java Development Kit (JDK)
 	The Java Enterprise Edition (Java EE) #
- 	The Application Server
- 	The HyperText Transfer Protocal
+	The Application Server
+	The HyperText Transfer Protocal
 }
 
 {
 	To develop Java web applications, you can use an Integrated Development Environment (IDE) such as:
 	NetBeans or Eclipse #
- 	Foxfire or Netscape
- 	FileZilla or CuteFTP
- 	Tomcat or Apache
+	Foxfire or Netscape
+	FileZilla or CuteFTP
+	Tomcat or Apache
 }
 
 {
 	The presentation layer for a typical servlet/JSP web application consists of:
 	Java classes
- 	servlets
+	servlets
 	HTML pages and JSPs #
- 	data access classes
+	data access classes
 }
 
 {
 	For web applications, data can be stored in:
 	text files
- 	databases
- 	XML files
+	databases
+	XML files
 	all of the above #
 }
 
 {
 	Which directory stores the Java classes of a servlet/JSP application?
- 	WEB-INF
+	WEB-INF
 	WEB-INF\classes #
- 	META-INF
- 	META-INF\classes
+	META-INF
+	META-INF\classes
 }
 
 {
 	There are many approaches to developing web applications with Java besides using servlets and JavaServer Pages. Name two other approaches.
- 	HTML and CSS
+	HTML and CSS
 	JSF and Spring #
- 	Glassfish and Tomcat
- 	JavaScript and jQuery
+	Glassfish and Tomcat
+	JavaScript and jQuery
 }
 
 {
 	Which of the following is an API for working with databases?
 	JPA #
- 	JSF
+	JSF
 	EJB
- 	Spring
+	Spring
 }
