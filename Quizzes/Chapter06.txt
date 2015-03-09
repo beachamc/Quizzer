@@ -6,7 +6,7 @@
 
 {
 	If you attempt to run a JSP that contains a coding error, the server typically returns an error page with HTTP Status __________.
-	404 #
+	500 #
 }
 
 {
