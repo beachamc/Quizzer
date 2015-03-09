@@ -7,8 +7,10 @@ import platform
 
 
 def main():
+	osClear()
 	selections = selectQuizzes()
 	questions = []
+	osClear()
 	print("Learning mode automatically adds the questions you miss")
 	print("back in to the quiz and shuffles the order of the questions")
 	print("so that you learn all of the questions.")
@@ -19,11 +21,11 @@ def main():
 	for i in range(len(selections)):
 		questions += read(os.path.join('Quizzes', selections[i]))
 	if(len(questions) > 0):
+		osClear()
 		print(str(len(questions)) + " questions.")
 		shuffle(questions)
 		correct = 0
 		total = 0
-		osClear()
 		scoreboard(correct, total, questions)
 		print("")
 		while(len(questions) > 0):
@@ -91,6 +93,7 @@ def selectQuizzes():
 		print("Type the numbers, separated by commas for the quizzes you wish to take or type all for all quizzes.")
 		for i in range(1,len(quizzes)+1):
 			print (str(i) + " " + quizzes[i-1])
+		print("")
 		selections = raw_input().split(',')
 		if(selections == ['all']):
 			selections.remove('all')
