@@ -9,6 +9,9 @@ import platform
 def main():
 	selections = selectQuizzes()
 	questions = []
+	print("Learning mode automatically adds the questions you miss")
+	print("back in to the quiz and shuffles the order of the questions")
+	print("so that you learn all of the questions.")
 	print("Do you want to turn on Learning Mode? (y/n)")
 	learningMode = getch.getch()
 	if (learningMode.lower() == 'y'):
@@ -74,7 +77,7 @@ def main():
 
 def osClear():
 	if(platform.system() == 'Windows'):
-		call(["cls"])
+		os.system('cls')
 	else:
 		call(["clear"])
 
