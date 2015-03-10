@@ -25,7 +25,7 @@
 
 {
 	The file for a TLD is saved in the ________________ directory or one of its subdirectories.
-	WEB-INF	#
+	WEB-INF #
 }	
 
 {
