@@ -1,0 +1,112 @@
+{
+	Most modern servlet containers such as Tomcat provide a built-in way to restrict access to       certain parts of a web application. This is known as ________________.
+	container-managed security #
+}
+
+{
+	The process of asking users to identify themselves before they can access restricted portions of a web site is referred to as _________________________.
+	authentication #
+}
+
+{
+	You use the ________________ file to specify the type of authentication that’s going to be used by the application.
+	web.xml #
+}
+
+{
+	Instead of using a dialog box to request the username and password, ________________ authentication uses a web form.
+	form-based #
+}
+
+{
+	When you use form-based authentication, you can use ________________ to code the login form that’s displayed when someone attempts to access a restricted resource.
+	html #
+}
+
+{
+	To restrict access to a web resource, you add a ______________ element to the web.xml file.
+	security-constraint #
+	auth-constraint
+	security-role
+	web-resource-collection
+}
+
+{
+	Which of the following is not included in a security constraint?
+	the URL pattern for the restricted resources
+	the authorized roles for accessing the restricted resources
+	the authorized usernames for accessing the restricted resources #
+}
+
+{
+	The security realm provides the authorized
+	usernames and passwords
+	usernames and roles
+	usernames, passwords, and roles #
+	passwords and roles
+}
+
+{
+	By default, Tomcat stores usernames, passwords, and roles in the
+	the web.xml file
+	the server.xml file
+	a database
+	the tomcat-users.xml file #
+}
+
+{
+	When an application uses basic authentication,
+	the username and password are encrypted before being sent to the server
+	a dialog box automatically prompts the user for a username and password #
+	the usernames and passwords are stored in the tomcat-users.xml file
+	the web.xml file provides the path for the login page
+}
+
+{
+	Since this type of authentication does not automatically encrypt the username and password before sending them to the server, it is typically used over a secure connection.
+	basic authentication
+	form-based authentication
+	digest authentication
+	both a and b #
+	none of the above
+}
+
+{
+	An interface that’s used to authenticate users so they can access web resources that have been restricted is called a
+	realm #
+	constraint
+	role
+	none of the above
+}
+
+{
+	A user can be associated with
+	zero roles
+	one role
+	multiple roles
+	all of the above #
+}
+
+{
+	For simple web applications, the ________________ provides a quick and easy way to implement a realm.
+	JDBCRealm
+	UserDatabaseRealm #
+	DataSourceRealm
+	none of the above
+}
+
+{
+	For more serious web applications, the ________________ provides a way to access usernames, passwords, and roles that have been stored in a relational database.
+	JDBCRealm #
+	UserDatabaseRealm
+	DataSourceRealm
+	none of the above
+}
+
+{
+	The ____________________ provides a way to use connection pooling to access usernames, passwords, and roles that have been stored in a database.
+	JDBCRealm
+	UserDatabaseRealm
+	DataSourceRealm #
+	none of the above
+}

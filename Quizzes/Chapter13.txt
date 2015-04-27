@@ -1,0 +1,85 @@
+{
+	________________ is a standard API for working with databases in Java that makes object-oriented data easier to work with than JDBC.
+	JPA #
+}
+
+{
+	You can convert a business class to an entity by adding ________________ to the class.
+	JPA annotations #
+}
+
+{
+	JPQL uses ________________ expressions to refer to the fields of an entity.
+	path #
+}
+
+{
+	Which is a JPA implementation?
+	Hibernate
+	EclipseLink
+	TopLink
+	all of the above #
+}
+
+{
+	To specify that a business class in an entity, you use the ________________ annotation.
+	@Id
+	@Entity #
+	@GeneratedValue
+	none of the above
+}
+
+{
+	________________ use the get and set methods of the class to get and set the values of the fields.
+	Field annotations
+	Getter annotations #
+	Named parameters
+	all of the above
+}
+
+{
+	________________ don’t use the get and set methods of the class to get and set the values of the fields. Instead they access the fields directly.
+	Field annotations #
+	Getter annotations
+	Named parameters
+	all of the above
+}
+
+{
+	To specify the relationships between your business classes, you can use the ________________ annotation.
+	@OneToMany
+	@ManyToOne
+	@OneToOne
+	all of the above #
+}
+
+{
+	To specify the SQL type for the java.util.Date and java.util.Calendar types, you can use the ________________ annotation.
+	@SqlType
+	@Temporal #
+	@GeneratedValue
+	@Gregorian
+}
+
+{
+	________________ is an object-oriented query language defined as part of the JPA specification.
+	DDL (data definition language)
+	DML (data manipulation language)
+	JPQL (Java Persistence Query Language) #
+	none of the above
+}
+
+{
+	To specify a named parameter in a JPQL query string, code a/an ________________ followed by the name of the parameter.
+	semicolon (;)
+	colon (:) #
+	none of the above
+}
+
+{
+	You can use the ________________ method of the entity manager to insert, update, and delete data.
+	persist
+	merge
+	remove
+	all of the above #
+}

@@ -1,0 +1,90 @@
+{
+	The accept header in an HTTP request indicates the __________________________ types that are accepted by the browser.
+	MIME #
+}
+
+{
+	To control how a browser caches a page, you would set the cache-control header in the ___________________________ object.
+	response #
+}
+
+{
+	To get the cookies that are available from an HTTP request, you can use the getCookies method to work with the ___________________________ header.
+	cookie #
+}
+
+{
+	The line in an HTTP response that specifies the HTTP version, a status code, and a brief description associated with the status code is the
+	status line #
+}
+
+{
+	The primary protocol that is used to transer data between a browser and a server is
+	HTTP #
+}
+
+{
+	The line in an HTTP request that specifies the request method, the URL of the request, and the version of HTTP is the
+	request line #
+}
+
+{
+	After the first line of a request, the browser sends ________________ that give information about the browser and its request.
+	request headers #
+}
+
+{
+	An HTTP response consists of the following:
+	status code, response headers, and response body
+	status line, response headers, and response body
+	status code, response headers, and response body #
+	status line, response headers, response body, and response footer
+}
+
+{
+	Which of the following is not part of the request line in an HTTP request?
+	the URL of the request
+	the HTTP method
+	the MIME type #
+	the version of HTTP
+}
+
+{
+	The cookie header in an HTTP request provides
+	the last cookie sent from the server
+	all cookies sent from the server
+	the last cookie sent by the browser
+	all cookies sent by the browser #
+}
+
+{
+	A status code of 500 informs the user that the
+	HTTP method isn’t allowed for the requested URL
+	URL could not be found
+	response is normal
+	server encountered a problem #
+}
+
+{
+	Which, if any, of the following statements is equivalent to this code: String type = request.getHeader("Content-Type");
+	String type = request.getContentType(); #
+	String type = request.getContentTypeHeader();
+	String type = request.getHeaderNames("content-type");
+	none of the above
+}
+
+{
+	What does the following code get? Enumeration<String> headerNames = request.getHeaderNames();
+	all request headers
+	the names of all request headers #
+	the values of all request headers
+	none of the above
+}
+
+{
+	Which of the following isn’t a case in which you would use response headers?
+	To return a file as an Excel spreadsheet
+	To specify the authentication type to be used #
+	To compress a response
+	To force the File Download dialog box to be displayed
+}

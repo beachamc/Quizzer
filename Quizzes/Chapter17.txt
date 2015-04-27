@@ -1,0 +1,90 @@
+{
+	________________ attacks allow an attacker to inject JavaScript into your page.
+	Cross-site scripting #
+}
+
+{
+	Passwords that are stored in the database without being encrypted are called ________________ passwords.
+	unhashed #
+}
+
+{
+	The process of taking readable data and changing it in some way so it is no longer readable as the original text is called _______________.
+	Cryptography #
+}
+
+{
+	________________ is when you pass a message through an algorithm that produces a scrambled version of it that can’t be reversed.
+	One-way hashing #
+}
+
+{
+	A/an ________________ occurs when two input strings hash to the same value.
+	collision #
+}
+
+{
+	A/an ________________ is a random string that’s appended to a password.
+	salt #
+}
+
+{
+	To hash a string, you use the ________________ class.
+	MessageDigest #
+}
+
+{
+	_________________ are when an attacker attempts to gain unauthorized access to a system by tricking users rather than exploiting technical flaws.
+	Cross-site scripting attacks
+	SQL injection attacks
+	Social engineering attacks #
+	none of the above
+}
+
+{
+	Educating your users about password strength and the dangers of giving out information to unknown persons can help prevent
+	dictionary attacks
+	rainbow table attacks
+	social engineering attacks #
+	cross-site scripting attacks
+}
+
+{
+	A/an ________________ is when an attacker uses a pre-computed database of words and their hash values in an attempt to crack hashed passwords that they have gained access to.
+	cross-site scripting attack
+	dictionary attack
+	rainbow table attack #
+	SQL injection attack
+}
+
+{
+	_________________ is useful for encrypting things such as passwords, where there is no need for anyone to read the original value of the password.
+	One-way hashing #
+	Reversible encryption
+	Salting
+	none of the above
+}
+
+{
+	________________ encrypts data against a key, which can be used to decrypt the data at a later date when it needs to be read by a user.
+	One-way hashing
+	Reversible encryption #
+	Salting
+	none of the above
+}
+
+{
+	________________  prevents rainbow table attacks.
+	Reversible encryption
+	Salting #
+	One-way hashing
+	none of the above
+}
+
+{
+	To salt a password, you append the salt value to the original password ________________ hashing it.
+	before #
+	after
+	while
+	instead of
+}

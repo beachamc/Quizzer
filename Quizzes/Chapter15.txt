@@ -1,0 +1,121 @@
+{
+	SSL (Secure Sockets Layer) is an older protocol used by the Internet that lets clients and servers communicate over a ________________.
+	secure connection #
+}
+
+{
+	The URL that uses a secure connection to connect to www.company.com is ________________.
+	https://www.company.com #
+}
+
+{
+	The process of determining whether a server or client is who and what it claims to be is called ________________.
+	authentication #
+}
+
+{
+	A ________________ digital secure certificate enables you to test SSL connections in a local environment without purchasing a secure certificate.
+	self-signed	#
+}
+
+{
+	When a secure connection is used, the data that’s passed between client and server is ________________.
+	encrypted #
+}
+
+{
+	________________ is the successor to SSL, and it works similarly.
+	Transport Layer Security #
+}
+
+{
+	A type of digital secure certificate issued to a trusted server so client computers can connect to them using secure connections is called a/an ___________________.
+	server certificate #
+}
+
+{
+	A company that issues and manages security credentials is called a/an
+	certificate authority #
+}
+
+{
+	SSL ________________ refers to the length of the generated key that is created during the encryption process.
+	strength #
+}
+
+{
+	The ________________ API is a collection of Java classes that let you use secure connections within your Java programs by implementing a version of the SSL and TLS protocols.
+	Java Secure Socket Extension #
+}
+
+{
+	When a browser makes an initial attempt to communicate with a server over a secure connection, the server authenticates itself by
+	providing a digital secure certificate to the client #
+	decrypting all data
+	confirming the identity of the client
+	authorizing the client
+}
+
+{
+	A digital secure certificate is provided
+	usually for a fee from a certificate authority #
+	free from a certificate authority
+	for a fee from a registration authority
+	free from a registration authority
+}
+
+{
+	The maximum SSL strength for an application’s connections is determined by
+	the SSL methods that you use
+	the certification authority
+	the registration authority
+	the digital secure certificate #
+}
+
+{
+	Once you establish a secure connection, the application
+	returns to a non-secure connection for subsequent requests
+	uses absolute URLs to continue using the secure connection
+	continues to use a secure connection until an absolute URL specifies a non-secure connection #
+	continues to use a secure connection until until a relative URL specifies a non-secure connection
+}
+
+{
+	SSL strength can depend on
+	the strength provided by the certificate
+	the strength supported by the web server
+	the strength supported by the browser
+	all of the above #
+}
+
+{
+	To use a secure connection, you need to
+	install a digital secure certificate on your web server
+	configure your web server so it defines a secure connection
+	both a and b #
+	none of the above
+}
+
+{
+	To create a self-signed certificate, you need to create a/an ________________ file.
+	HTML
+	keystore #
+	JAR
+	none of the above
+}
+
+{
+	Before a secure connection is established, the server uses a  ________________ to authenticate itself.
+	a client certificate
+	a server certificate #
+	both a and b
+	none of the above
+}
+
+{
+	To use SSL to transmit data, the ________________ must provide authentication.
+	the client
+	both the client and the server
+	the server #
+	none of the above
+}

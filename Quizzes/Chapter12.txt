@@ -1,0 +1,105 @@
+{
+	Before you can use JDBC to connect to a database, you must make a/an ________________ available to your application.
+	database driver #
+}
+
+{
+	To create a Connection object in a web application, you use the ________________ method of the DriverManager class.
+	getConnection #
+}
+
+{
+	To create a Statement object, you use one of the methods of the ________________ object.
+	connection #
+}
+
+{
+	To retrieve a result set by executing a SELECT statement from a Statement object, you use the  ________________ method of the Statement object.
+	executeQuery #
+}
+
+{
+	To execute an INSERT statement from a Statement object, you use the  ________________ method of the Statement object.
+	executeUpdate #
+}
+
+{
+	To get data from a result set, you use the get methods of the  ________________ object.
+	ResultSet #
+}
+
+{
+	mark (?) in the SQL statement.
+	parameter #
+}
+
+{
+	To improve the performance of database operations, an application can use a connection ________________.
+	pool #
+}
+
+{
+	Creating a Student object from data that’s stored in a Student table in a database is a partial implementation of ________________ mapping.
+	O/R #
+}
+
+{
+	One technique that can help prevent SQL injection attacks is to use ________________ statements.
+	prepared #
+}
+
+{
+	To move the cursor through a result set, you can use the methods of the
+	Statement object
+	ResultSet object #
+	Connection object
+	ResultSetMetaData object
+}
+
+{
+	To get information about a result set like the number of columns and names of the columns, you can use the methods of the
+	Statement object
+	ResultSet object
+	Connection object
+	ResultSetMetaData object #
+}
+
+{
+	To execute the DELETE statement that follows, which statement would you use? String query = "DELETE FROM Invoices " + "WHERE InvoiceTotal = 0 "; Statement statement = connection.createStatement();
+	statement.executeQuery(query);
+	statement.executeUpdate(query); #
+	statement.executeDelete(query);
+	statement.executeStatement(query);
+}
+
+{
+	If ps is a PreparedStatement object and product is a Product object, then the following statement ps.setDouble(3, product.getPrice());
+	sets the third column in the prepared statement to the value that’s returned by the getPrice method
+	sets the third parameter in the prepared statement to the value that’s returned by the getPrice method #
+	sets the Price variable to a value of 3
+	sets the Price column to a value of 3
+}
+
+{
+	Connection pooling improves database performance because
+	it provides one connection for each thread of a servlet
+	it only opens connections when they are needed
+	a pool of connections are available for users of the application to share #
+	a pool of servlet threads are allowed to access the database at one time
+}
+
+{
+	In a SQL injection attack, an attacker attempts to
+	execute SQL statements against your database
+	modify data
+	delete data
+	all of the above #
+}
+
+{
+	The getXXX methods can be used to return ________________ of the eight primitve types.
+	one
+	two
+	all #
+	none
+}
