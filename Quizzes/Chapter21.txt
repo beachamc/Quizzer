@@ -1,0 +1,73 @@
+{
+	________________ is a component-based view technology that makes writing a web application similar to writing a desktop application.
+	JSF #
+}
+
+{
+	________________ component libraries can greatly extend the functionality of JSF by providing advanced components.
+	Third-party #
+}
+
+{
+	A/an ________________ is the server-side model and controller that supports a JSF component.     
+	managed bean, backing bean #
+}
+
+{
+	To create a managed bean, code the ________________ annotation above the class name.
+	@ManagedBean #
+}
+
+{
+	To designate a method to initialize your bean, you can use the ________________ annotation.
+	@PostConstruct #
+}
+
+{
+	You use the inputText tag to code a/an ________________ in a form.
+	text box #
+}
+
+{
+	To display a validation failure message, you can use the _________________ tag.
+	message	#
+}
+
+{
+	You can use standard HTML tags inside a JSF document as long as they follow the stricter ________________ syntax.
+	XHTML #
+}
+
+{
+	A managed bean can contain one or more ________________ methods that perform processing when a form is submitted.
+	action #
+}
+
+{
+	The ________________ of a bean determines how long the bean is available to the application.
+	scope #
+}
+
+{
+	JSF uses managed beans to
+	store data
+	retrieve data
+	store methods
+	control the flow of the application
+	all of the above #
+}
+
+{
+	Which of the following annotations can you use to specifies session scope for a managed bean?
+	@SessionScope
+	@SessionScoped #
+	@ViewScope
+	@ViewScoped
+}
+
+{
+	Instance variables are usually not thread-safe in beans with which type of scope?
+	request scope
+	application scope #
+	session scope
+}

@@ -1,0 +1,58 @@
+{
+	A/an ________________ is a class that listens for various events that can occur during the lifecycle of a web application.
+	listener #
+}
+
+{
+	A listener provides ________________ that are executed when specific events occur.
+	methods #
+}
+
+{
+	To create a listener, you must register the listener by adding a/an ________________ to the application’s web.xml file.
+	listener element #
+}
+
+{
+	To create a listener, you must code a class that implements one of the listener ________________.
+	interfaces #
+}
+
+{
+	You can write a class that can tell when a/an ________________ is created or destroyed by implementing the HttpSessionListener.
+	session object #
+}
+
+{
+	All of the methods for a listener have a/an _______________ object as the sole parameter.
+	event #
+}
+
+{
+	The getSession method of the HttpSessionEvent class returns the ________________ object that was created or destroyed.
+	HttpSession	#
+}
+
+{
+	Which listener should you use to initialize variables when the web application is started for the first time?
+	ServletRequestListener
+	ServletResponseListener
+	ServletContextListener #
+	ServletSessionListener
+}
+
+{
+	What method is available from the ServletContextEvent object?
+	getSession()
+	getServletContext() #
+	getName()
+	getValue()
+}
+
+{
+	Which listener must implement the sessionCreated and sessionDestroyed methods?
+	ServletRequestListener
+	ServletResponseListener
+	ServletContextListener
+	ServletSessionListener #
+}

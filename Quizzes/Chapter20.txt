@@ -1,0 +1,87 @@
+{
+	You can use a filter to do some processing before a requested servlet or __________________ is executed.
+	JSP #
+}
+
+{
+	Filters are ideal for addressing ________________, which are aspects of an application that cut across different parts of an application.
+	cross-cutting concerns #
+}
+
+{
+	You can ________________ two or more filters together.
+	chain #
+}
+
+{
+	Before you can use a filter class, you must configure it in the ___________________ file for the application.
+	web.xml #
+}
+
+{
+	To code a filter that executes code after a requested servlet is executed but before the response is returned to the client, you code all of the processing statements after you call the doFilter method of the ______________________ parameter.
+	FilterChain	#
+}
+
+{
+	When you use a wrapper class for the request or response of a filter, you can add new _____________________ to the request or response that is passed along the chain.
+	methods #
+}
+
+{
+	The HttpServletRequestWrapper and HttpServletResponseWrapper classes implement a design pattern known as the ________________.
+	wrapper pattern #
+}
+
+{
+	Filters allow you to store code in a single location that can be applied to ________________ parts of an application.
+	multiple #
+}
+
+{
+	You can use a filter to do all but one of the following. Which one is it?
+	Compress responses
+	Provide your own security for portions of a web site
+	Provide initialization code when an application starts #
+	Log the requests and responses of an application
+}
+
+{
+	The Filter interface includes the
+	init, executeFilter, and destroy methods
+	start, executeFilter, and end methods
+	init, doFilter, and destroy methods #
+	start, doFilter, and destroy methods
+}
+
+{
+	When you map a filter class, which one of the following can you specify?
+	the URL pattern that the filter should be used for
+	the servlet or servlets that the filter should be used for
+	both a and b #
+	none of the above
+}
+
+{
+	After you code the request-side processing statements for a filter class, you pass
+	the request object to the next filter in the chain
+	the request and response objects to the next filter in the chain
+	the request object to the next filter or servlet in the chain
+	the request and response objects to the next filter or servlet in the chain #
+}
+
+{
+	To code a filter, you must
+	code a class that implements the Filter interface
+	add a filter-mapping element to the web.xml file
+	add a filter element to the web.xml file
+	all of the above #
+}
+
+{
+	You can code ________________ init-param element(s) for a single filter.
+	one
+	multiple #
+	zero
+	none of the above
+}
