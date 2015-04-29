@@ -71,3 +71,52 @@
 	application scope #
 	session scope
 }
+	
+{
+	To display fields from a managed bean
+	code the class name of the managed bean
+	code a path to the field you want to display
+	both a and b #
+	none of the above
+}
+
+{
+	________________ scoped beans should be used sparingly, as they can cause serious performance issues on a busy server with lots of users.
+	Request
+	Application 
+	Session #
+	View
+}
+
+{
+	________________ scoped beans are shared by the entire application.
+	Request
+	Application #
+	Session
+	View 
+}
+
+{
+	When you need data to be available for more than one request to the same view, but not for the entire session, you can use a/an ________________ scoped bean.
+	request
+	application
+	session
+	view #
+}
+
+{
+	Which is an XTML syntax rule?
+	all tags must be lowercase
+	all tags must be closed
+	all tags must be properly nested
+	all of the above #
+}
+
+{
+	Which JSF text component creates a text box for passwords that doesn’t show the characters the user enters?
+	inputSecret #
+	inputText
+	inputHidden
+	none of the above
+
+}

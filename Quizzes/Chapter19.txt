@@ -30,7 +30,7 @@
 
 {
 	The getSession method of the HttpSessionEvent class returns the ________________ object that was created or destroyed.
-	HttpSession	#
+	HttpSession #
 }
 
 {

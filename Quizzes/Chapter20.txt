@@ -20,7 +20,7 @@
 
 {
 	To code a filter that executes code after a requested servlet is executed but before the response is returned to the client, you code all of the processing statements after you call the doFilter method of the ______________________ parameter.
-	FilterChain	#
+	FilterChain #
 }
 
 {
