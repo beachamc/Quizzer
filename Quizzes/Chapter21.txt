@@ -30,7 +30,7 @@
 
 {
 	To display a validation failure message, you can use the _________________ tag.
-	message	#
+	message #
 }
 
 {
