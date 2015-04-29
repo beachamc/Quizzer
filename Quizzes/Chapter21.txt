@@ -10,7 +10,7 @@
 
 {
 	A/an ________________ is the server-side model and controller that supports a JSF component.     
-	managed bean, backing bean #
+	managed bean #
 }
 
 {
