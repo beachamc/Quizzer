@@ -118,5 +118,4 @@
 	inputText
 	inputHidden
 	none of the above
-
 }
