@@ -1,5 +1,5 @@
 {
-	Most modern servlet containers such as Tomcat provide a built-in way to restrict access to       certain parts of a web application. This is known as ________________.
+	Most modern servlet containers such as Tomcat provide a built-in way to restrict access to certain parts of a web application. This is known as ________________.
 	container-managed security #
 }
 

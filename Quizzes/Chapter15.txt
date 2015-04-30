@@ -15,7 +15,7 @@
 
 {
 	A ________________ digital secure certificate enables you to test SSL connections in a local environment without purchasing a secure certificate.
-	self-signed	#
+	self-signed #
 }
 
 {
